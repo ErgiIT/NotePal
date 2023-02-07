@@ -1,0 +1,63 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+.loginButton{
+    background-color: #579BB1;
+    padding: 8px;
+    color: #191919;
+    font-size: large;
+    border: none;
+}
+
+.formStyles{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#light .loginCol{
+    color:#579BB1;
+}
+
+.registerLink{
+    color: #1a2456;
+}
+
+#light .loginButton:hover{
+    opacity: 0.8;
+}
+
+#dark .loginButton{
+    background-color: rgb(128, 0, 128);
+    padding: 8px;
+    color: #efc2b3;
+    font-size: large;
+    border: none;
+}
+
+#dark .loginButton:hover{
+    background-color: rgba(128, 0, 128, 0.719);
+}
+
+#dark .loginCol{
+    color: white;
+}
+
+
+#dark body{
+    color: purple;
+}
+
+#dark .shkrimi{
+    color: #f3e37c;
+}
+
+#light .shkrimi{
+    color: #579BB1;
+}
+
+

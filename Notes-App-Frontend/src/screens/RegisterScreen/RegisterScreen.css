@@ -1,0 +1,63 @@
+.registerContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+.registerButton{
+    background-color: #579BB1;
+    padding: 8px;
+    color: #191919;
+    font-size: large;
+    border: none;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.formStyles{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginLink{
+    color: #1a2456;
+}
+
+#dark .registerButton{
+    background-color: purple;
+    color: #efc2b3;
+}
+
+#light .registerCol{
+    color: #579BB1;
+}
+
+#dark .registerCol{
+    color: white;
+}
+
+#dark .registerButton:hover{
+    background-color: rgba(128, 0, 128, 0.719);
+}
+
+#light .registerButton:hover{
+    opacity: 0.8;
+}
+
+#dark .loginLink{
+    color: #f3e37c;
+}
+
+#dark .loginLink:hover{
+    text-decoration: none;
+    color: #f3e37cb0;
+}
+
+#light .register_form{
+    background-color: #191919;
+    opacity: 0.8;
+    color:#579BB1;
+}

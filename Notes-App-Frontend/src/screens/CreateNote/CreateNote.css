@@ -1,0 +1,72 @@
+.createContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+button{
+    margin: 10px;
+}
+
+.formStyles{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.submitButton{
+    background-color: #1a2456;
+    padding: 8px;
+    color: #efc2b3;
+    font-size: large;
+    border: none;
+    border-radius: 20%;
+}
+
+.goBackButton{
+    background-color: #b91c1c;
+    padding: 8px;
+    color: #efc2b3;
+    font-size: large;
+    border: none;
+    border-radius: 20%;
+}
+
+.btnSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#dark .shkrimi{
+    color: #f3e37c;
+}
+
+
+.submitButton:hover{
+    background-color: #1a2456c7;
+}
+
+.goBackButton:hover{
+    background-color: #b91c1cbb;
+}
+
+/* .input_content{
+    background: #fff;
+    color: red;
+    border: 2px solid red;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+  } */
+
+  .titleControl{
+    opacity: 0.9;
+  }
+
+  #light .titleControl{
+    background-color: #579BB1;
+    font-weight: bold;
+  }

@@ -1,0 +1,17 @@
+.footer{
+    text-align: center;
+}
+
+#dark .footer{
+    color: #f3e37c;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#light .footer{
+    color: #579BB1;
+}
+
+p{
+    margin-bottom: 0;
+}

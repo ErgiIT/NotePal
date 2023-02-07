@@ -1,0 +1,32 @@
+main{
+    min-height: 80vh;
+    right: 0;
+}
+
+body{
+    margin: 0;
+}
+
+#light{
+    background-color: #fefbf3;
+}
+
+#dark{
+    background-color: #1F2020;
+}
+
+body #dark{
+    color: #f3e37cb0;
+}
+
+.App{
+    bottom: 0;
+    margin-bottom: 0;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+.whole{
+    bottom: 0;
+}
+
+a { outline:none }

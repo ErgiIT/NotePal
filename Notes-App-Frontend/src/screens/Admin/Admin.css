@@ -1,0 +1,55 @@
+.admin{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#dark .admin{
+    color: #f3e37cb0;
+}
+
+h1{
+    margin: auto;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#dark .editIcon{
+    color: purple;
+}
+
+#dark .editIcon:hover{
+    background-color: purple;
+}
+
+#dark .tableHeadCell{
+    color: #f3e37cb0;
+}
+
+#light .tableHeadCell{
+    color: #191919;
+}
+
+#light .tableCell{
+    color: #191919;
+    background-color: rgb(173, 173, 173);
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+
+
+#dark .tableCell{
+    color: #f3e37cb0;
+    background-color: rgb(80, 80, 80);
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+#dark .table{
+    background-color: gray;
+}
+
+Table{
+    margin-top: 50px;
+}
